@@ -1,6 +1,5 @@
 {
   "lockfileVersion": 1,
-  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "activepieces",
@@ -3120,6 +3119,20 @@
         "@activepieces/pieces-common": "workspace:*",
         "@activepieces/pieces-framework": "workspace:*",
         "nanoid": "3.3.17",
+      },
+      "devDependencies": {
+        "tslib": "2.6.2",
+      },
+    },
+    "packages/pieces/community/figranium": {
+      "name": "@activepieces/piece-figranium",
+      "version": "0.0.1",
+      "dependencies": {
+        "@activepieces/core-piece-types": "workspace:*",
+        "@activepieces/core-utils": "workspace:*",
+        "@activepieces/pieces-common": "workspace:*",
+        "@activepieces/pieces-framework": "workspace:*",
+        "@figranium/sdk": "^0.1.0",
       },
       "devDependencies": {
         "tslib": "2.6.2",
@@ -11460,6 +11473,8 @@
 
     "@activepieces/piece-figma": ["@activepieces/piece-figma@workspace:packages/pieces/community/figma"],
 
+    "@activepieces/piece-figranium": ["@activepieces/piece-figranium@workspace:packages/pieces/community/figranium"],
+
     "@activepieces/piece-file-helper": ["@activepieces/piece-file-helper@workspace:packages/pieces/core/file-helper"],
 
     "@activepieces/piece-filetopdf": ["@activepieces/piece-filetopdf@workspace:packages/pieces/community/filetopdf"],
@@ -13127,6 +13142,8 @@
     "@fastify/swagger": ["@fastify/swagger@9.5.1", "", { "dependencies": { "fastify-plugin": "^5.0.0", "json-schema-resolver": "^3.0.0", "openapi-types": "^12.1.3", "rfdc": "^1.3.1", "yaml": "^2.4.2" } }, "sha512-EGjYLA7vDmCPK7XViAYMF6y4+K3XUy5soVTVxsyXolNe/Svb4nFQxvtuQvvoQb2Gzc9pxiF3+ZQN/iZDHhKtTg=="],
 
     "@fastify/view": ["@fastify/view@11.1.1", "", { "dependencies": { "fastify-plugin": "^5.0.0", "toad-cache": "^3.7.0" } }, "sha512-GiHqT3R2eKJgWmy0s45eELTC447a4+lTM2o+8fSWeKwBe9VToeePuHJcKtOEXPrKGSddGO0RsNayULiS3aeHeQ=="],
+
+    "@figranium/sdk": ["@figranium/sdk@0.1.0", "", {}, "sha512-PRmbaGPyzwXbWoqp5+ZVZ/k/ozYyniV1O6i7+ue1HNQhkwCZ3nihauZfe1S/BHtq5havCIThIgNVRIo14ayRQg=="],
 
     "@floating-ui/core": ["@floating-ui/core@1.7.5", "", { "dependencies": { "@floating-ui/utils": "^0.2.11" } }, "sha512-1Ih4WTWyw0+lKyFMcBHGbb5U5FtuHJuujoyyr5zTaWS5EYMeT6Jb2AuDeftsCsEuchO+mM2ij5+q9crhydzLhQ=="],
 
